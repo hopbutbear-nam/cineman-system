@@ -1,0 +1,42 @@
+# ===== Java / Maven =====
+backend/target/
+**/target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+!**/.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+# ===== Spring: cấu hình cục bộ (chứa mật khẩu DB) =====
+application-local.properties
+application-local.yml
+
+# ===== Node.js / Vite / React =====
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env.local
+.env.*.local
+
+# ===== VS Code / IDE =====
+.vscode/
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+
+# ===== Hệ điều hành =====
+.DS_Store
+Thumbs.db
+desktop.ini
